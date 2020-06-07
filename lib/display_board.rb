@@ -2,12 +2,12 @@
 # out the current state.
 
 #def empty_board
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-end
+  #puts "   |   |   "
+  #puts "-----------"
+  #puts "   |   |   "
+  #puts "-----------"
+  #puts "   |   |   "
+#end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
