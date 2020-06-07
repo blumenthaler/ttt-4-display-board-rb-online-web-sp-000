@@ -9,12 +9,13 @@
   #puts "   |   |   "
 #end
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+empty_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def display_board(board)
+
+def display_board(board = empty_board)
   puts "   |   |   "
   puts "-----------"
-  puts "   |   |   "
+  puts "   |  #{board[4]} |   "
   puts "-----------"
   puts "   |   |   "
 end
