@@ -9,7 +9,7 @@ def empty_board
   puts "   |   |   "
 end
 
-board[" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def display_board(board = empty_board)
   puts "   |   |   "
