@@ -15,7 +15,7 @@ empty_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def display_board(board=empty_board)
   puts "   |   |   "
   puts "-----------"
-  puts "   |  #{board[4]} |   "
+  puts "   |  #{empty_board[4]} |   "
   puts "-----------"
   puts "   |   |   "
 end
