@@ -12,7 +12,7 @@
 empty_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 
-def display_board(board = empty_board)
+def display_board(board=empty_board)
   puts "   |   |   "
   puts "-----------"
   puts "   |  #{board[4]} |   "
